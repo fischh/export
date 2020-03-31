@@ -1,0 +1,59 @@
+.onglet {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+.onglet a{
+    padding:0 10px;
+}
+.gmail {
+    text-decoration: none;
+    color: #000;
+}
+.gmail:hover {
+    text-decoration: underline black;
+}
+.images {
+    text-decoration: none;   
+    color: #000;
+}
+.images:hover {
+    text-decoration: underline black;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recherche {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bouton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bandeau {
+    background-color: rgb(226, 226, 226);
+    position: absolute; bottom: 0pc;
+}
+.bandeau a{
+    text-decoration: none;
+    padding:0 20px;
+    color: rgb(20, 20, 20);
+}
+.bandeau a:hover {
+    text-decoration: underline black;
+}
+.bandeaudebut {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bandeaufin {
+    display: flex;
+    float: inline-end;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
