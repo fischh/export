@@ -1,20 +1,5 @@
-inherit_from:
-  - http://relaxed.ruby.style/rubocop.yml
-
-AllCops:
- DisplayStyleGuide: true
- DisplayCopNames: true
- Exclude:
-  - 'db/schema.rb'
-  - 'vendor/**/*'
-  - 'config/environments/*.rb'
-  - 'bin/*'
-
-Rails:
- Enabled: True
-
-Metrics/BlockLength:
- Exclude:
-  - 'spec/**/*.rb'
-  - 'Guardfile'
-  - 'vendor/bundle'
+source "https://rubygems.org"
+ruby '2.5.1'
+gem 'rspec'
+gem 'pry'
+gem 'rubocop', '~> 0.57.2'
